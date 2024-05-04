@@ -1,0 +1,96 @@
+@import url(reset.css);
+
+/* I-BLOCK */
+
+.in-container {
+  width: 1200px;
+  height: 1200px;
+  background: rgb(83, 200, 83);
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.first {
+  background: rgb(0, 208, 255);
+}
+
+.first div {
+  background: color;
+  outline: 2px solid red;
+  width: 400px;
+  display: inline-block;
+  font-size: 15px;
+  height: 400px;
+}
+
+
+.second {
+  background: rgb(204, 255, 0);
+  outline: 2px solid red;
+  font-size: 0;
+}
+
+.second div {
+  outline: 2px solid red;
+  font-size: 15px;
+}
+
+.second_fist {
+  display: inline-block;
+  width: 800px;
+
+}
+
+.second_two {
+  display: inline-block;
+  font-size: 20px;
+  width: 400px;
+}
+
+.second_fist div {
+  height: 200px;
+}
+
+.second_two div {
+  height: 133.33px;
+}
+
+.three div {
+  background: orange;
+  outline: 2px solid red;
+  font-size: 0;
+}
+
+.three_one {
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.three_two {
+  height: 400px;
+  width: 800px;
+  display: inline-block;
+}
+
+.three_top {
+  height: 200px;
+  width: 800px;
+}
+
+.three_bot_left {
+  height: 200px;
+  width: 400px;
+  display: inline-block;
+}
+
+.three_bot_right {
+  display: inline-block;
+}
+
+.three_bot_right div {
+  font-size: 20px;
+  height: 100px;
+  width: 400px;
+}
