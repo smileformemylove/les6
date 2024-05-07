@@ -1,5 +1,32 @@
 @import url(reset.css);
  
+/* !fonts */
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Medium.woff2') format('woff2');  
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* REGISTRATION */
 
 .sub_container {
@@ -211,6 +238,11 @@
 
 /* !SITE */
 
+ .body {
+  font-family: 'Montserrat' , sans-serif;
+  font-weight: 400;
+ }
+
  .header {
   padding: 30px 0 12px;
 }
@@ -261,7 +293,7 @@
 
 .header-btn {
   width: 100px;
-  padding: 8px 17px 7px;
+  padding: 10px 14px;
   background: #46A358;
   border-radius: 6px;
   color: white;
@@ -311,7 +343,7 @@
 
 .paragraph {
   width: 530px;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 70px;
   margin: 7px 0 0 0;
   color: #3D3D3D;
